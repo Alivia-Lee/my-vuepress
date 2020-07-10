@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>SSH KEY | 李未的博客</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    <link rel="icon" href="./images/logo.jpg">
+    <meta name="description" content="李未的博客">
+    <link rel="preload" href="/my-vuepress/assets/css/0.styles.abb96372.css" as="style"><link rel="preload" href="/my-vuepress/assets/js/app.38c15218.js" as="script"><link rel="preload" href="/my-vuepress/assets/js/2.7d773bc9.js" as="script"><link rel="preload" href="/my-vuepress/assets/js/14.f8d02bed.js" as="script"><link rel="prefetch" href="/my-vuepress/assets/js/10.51347287.js"><link rel="prefetch" href="/my-vuepress/assets/js/11.412a6df1.js"><link rel="prefetch" href="/my-vuepress/assets/js/12.fc2601d6.js"><link rel="prefetch" href="/my-vuepress/assets/js/13.53bfe46d.js"><link rel="prefetch" href="/my-vuepress/assets/js/15.df4a9d2e.js"><link rel="prefetch" href="/my-vuepress/assets/js/16.d385433e.js"><link rel="prefetch" href="/my-vuepress/assets/js/17.ef215e34.js"><link rel="prefetch" href="/my-vuepress/assets/js/18.23ec8054.js"><link rel="prefetch" href="/my-vuepress/assets/js/19.8b76077f.js"><link rel="prefetch" href="/my-vuepress/assets/js/20.ede94058.js"><link rel="prefetch" href="/my-vuepress/assets/js/21.30c75359.js"><link rel="prefetch" href="/my-vuepress/assets/js/22.7c1b67dd.js"><link rel="prefetch" href="/my-vuepress/assets/js/23.5ed43b18.js"><link rel="prefetch" href="/my-vuepress/assets/js/24.bea086af.js"><link rel="prefetch" href="/my-vuepress/assets/js/3.4c11f5e2.js"><link rel="prefetch" href="/my-vuepress/assets/js/4.724462bb.js"><link rel="prefetch" href="/my-vuepress/assets/js/5.243d81bb.js"><link rel="prefetch" href="/my-vuepress/assets/js/6.a91f959a.js"><link rel="prefetch" href="/my-vuepress/assets/js/7.e8e6ad61.js"><link rel="prefetch" href="/my-vuepress/assets/js/8.240e754a.js"><link rel="prefetch" href="/my-vuepress/assets/js/9.884a9888.js">
+    <link rel="stylesheet" href="/my-vuepress/assets/css/0.styles.abb96372.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/my-vuepress/zh/" class="home-link router-link-active"><img src="/my-vuepress/assets/img/logo.png" alt="李未的博客" class="logo"> <span class="site-name can-hide">李未的博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/my-vuepress/zh/guide/" class="nav-link router-link-active">
+  指南
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="博文" class="dropdown-title"><span class="title">博文</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/my-vuepress/zh/vue/" class="nav-link">
+  Vue
+</a></li><li class="dropdown-item"><!----> <a href="/my-vuepress/zh/react/" class="nav-link">
+  React
+</a></li><li class="dropdown-item"><!----> <a href="/my-vuepress/zh/html/" class="nav-link">
+  Html
+</a></li><li class="dropdown-item"><!----> <a href="/my-vuepress/zh/es6/" class="nav-link">
+  Es6
+</a></li><li class="dropdown-item"><!----> <a href="/my-vuepress/zh/git/" class="nav-link">
+  Git
+</a></li></ul></div></div><div class="nav-item"><a href="https://google.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  扩展
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="选择语言" class="dropdown-title"><span class="title">选择语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/my-vuepress/" class="nav-link">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/my-vuepress/zh/guide/ssh-key.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  简体中文
+</a></li></ul></div></div> <a href="https://gitlab.com/alpha-li/my-vuepress.git" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitLab
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/my-vuepress/zh/guide/" class="nav-link router-link-active">
+  指南
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="博文" class="dropdown-title"><span class="title">博文</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/my-vuepress/zh/vue/" class="nav-link">
+  Vue
+</a></li><li class="dropdown-item"><!----> <a href="/my-vuepress/zh/react/" class="nav-link">
+  React
+</a></li><li class="dropdown-item"><!----> <a href="/my-vuepress/zh/html/" class="nav-link">
+  Html
+</a></li><li class="dropdown-item"><!----> <a href="/my-vuepress/zh/es6/" class="nav-link">
+  Es6
+</a></li><li class="dropdown-item"><!----> <a href="/my-vuepress/zh/git/" class="nav-link">
+  Git
+</a></li></ul></div></div><div class="nav-item"><a href="https://google.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  扩展
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="选择语言" class="dropdown-title"><span class="title">选择语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/my-vuepress/" class="nav-link">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/my-vuepress/zh/guide/ssh-key.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  简体中文
+</a></li></ul></div></div> <a href="https://gitlab.com/alpha-li/my-vuepress.git" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitLab
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>指南</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/my-vuepress/zh/guide/" aria-current="page" class="sidebar-link">介绍</a></li><li><a href="/my-vuepress/zh/guide/getting-started.html" class="sidebar-link">部署vuepress项目</a></li><li><a href="/my-vuepress/zh/guide/use-markdown.html" class="sidebar-link">markdown语法</a></li><li><a href="/my-vuepress/zh/guide/ssh-key.html" aria-current="page" class="active sidebar-link">SSH KEY</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/my-vuepress/zh/guide/ssh-key.html#生成ssh-key" class="sidebar-link">生成ssh-key</a></li><li class="sidebar-sub-header"><a href="/my-vuepress/zh/guide/ssh-key.html#mac如何打开-ssh文件夹" class="sidebar-link">mac如何打开.ssh文件夹</a></li></ul></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>group2</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="ssh-key"><a href="#ssh-key" class="header-anchor">#</a> SSH KEY</h1> <h2 id="生成ssh-key"><a href="#生成ssh-key" class="header-anchor">#</a> 生成ssh-key</h2> <ul><li>输入命令</li></ul> <div class="language-$xslt line-numbers-mode"><pre class="language-text"><code>ssh-keygen -t rsa -C &quot;your_email@example.com&quot;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="邮箱的作用"><a href="#邮箱的作用" class="header-anchor">#</a> 邮箱的作用</h3> <p><a href="https://www.jianshu.com/p/259773014e03" target="_blank" rel="noopener noreferrer">参考地址<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <div class="custom-block tip"><p class="custom-block-title">提示</p> <p>每次生成密钥，看到国内的博客，都要求输入邮箱。但不知道意义何在。</p> <p>后来在stackOverFlow上看到这个答案。</p> <p>The email is only optional field to identify the key.</p> <p>邮箱仅仅是识别用的key</p> <p>When you create the ssh you type (for example):</p> <p>ssh-keygen -t rsa -C “any comment can be here”</p> <p>当你创建ssh的时候</p> <p>-t = The type of the key to generate</p> <p>密钥的类型</p> <p>-C = comment to identify the key</p> <p>用于识别这个密钥的注释</p> <p>So the Comment is for you only and you can put anything inside.</p> <p>Many sites and software are using this comment as the key name.</p> <p>所以这个注释你可以输入任何内容，很多网站和软件用这个注释作为密钥的名字</p></div> <p>成功后终端提示</p> <div class="language-$xslt line-numbers-mode"><pre class="language-text"><code>Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/&lt;username&gt;/.ssh/id_rsa): 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><ul><li>直接enter
+终端提示</li></ul> <div class="language-$xslt line-numbers-mode"><pre class="language-text"><code>Created directory '/Users/&lt;username&gt;/.ssh'.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><ul><li>密码输入结束后</li></ul> <div class="language-$xslt line-numbers-mode"><pre class="language-text"><code>Your identification has been saved in /Users/&lt;username&gt;/.ssh/id_rsa.
+Your public key has been saved in /Users/&lt;username&gt;/.ssh/id_rsa.pub.
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><ul><li>添加key到ssh</li></ul> <div class="language-$xslt line-numbers-mode"><pre class="language-text"><code>ssh-add ~/.ssh/id_rsa
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ul><li>将<code>id_rsa.pub</code>文件夹中的内容复制到github.com的sshkey中</li></ul> <div class="custom-block tip"><p class="custom-block-title">提示</p> <p>Settings --&gt;SSH keys --&gt;Add SSH key</p></div> <ul><li>验证SSH key是否有权限访问 你的 github</li></ul> <div class="language-$xslt line-numbers-mode"><pre class="language-text"><code>ssh git@github.com
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>成功后提示：<br> <strong>Hi your_name! You've successfully authenticated, but GitHub does not provide shell access.Connection to github.com closed.</strong></p> <h2 id="mac如何打开-ssh文件夹"><a href="#mac如何打开-ssh文件夹" class="header-anchor">#</a> mac如何打开.ssh文件夹</h2> <ul><li>右击finder文件夹</li> <li>点击<code>前往文件夹</code></li> <li>输入 ～/.ssh</li></ul></div> <footer class="page-edit"><div class="edit-link"><a href="https://gitlab.com/alpha-li/my-vuepress.git/edit/master/zh/guide/ssh-key.md" target="_blank" rel="noopener noreferrer">在 GitLab 上编辑此页</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">7/8/2020, 4:46:38 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/my-vuepress/zh/guide/use-markdown.html" class="prev">
+        markdown语法
+      </a></span> <span class="next"><a href="/my-vuepress/zh/guide/permalinks.html">
+        永久链接
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/my-vuepress/assets/js/app.38c15218.js" defer></script><script src="/my-vuepress/assets/js/2.7d773bc9.js" defer></script><script src="/my-vuepress/assets/js/14.f8d02bed.js" defer></script>
+  </body>
+</html>
